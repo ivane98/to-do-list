@@ -1,95 +1,94 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
-
-body {
-    background-color: #E9C46A;
+  }
+  body {
+    background-color:#344e41; 
     color: white;
-    font-family: sans-serif;
+    font-family: "Poppins", sans-serif;
     min-height: 100vh;
-}
-
-header {
-    font-size: 1.5rem;
-}
-
-header,
-form {
+  }
+  header {
+    font-size: 2rem;
+  }
+  
+  header,
+  form {
     min-height: 20vh;
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
-form input, form button {
+  }
+  form input,
+  form button {
     padding: 0.5rem;
     font-size: 2rem;
     border: none;
     background: white;
-}
-
-form button{
-    color: #E1996B ;
-    background: white;
+  }
+  form button {
+    color: #588157;
+    background: #f7fffe;
     cursor: pointer;
-    transition: all 0.3 ease;
-}
-
-form button:hover{
-    background: #E1996B;
+    transition: all 0.3s ease;
+  }
+  form button:hover {
+    background: #588157;
     color: white;
-}
-
-.todo-container {
+  }
+  .todo-container {
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
-.todo-list {
+  }
+  
+  .todo-list {
     min-width: 30%;
     list-style: none;
-}
-
-.todo {
+  }
+  
+  .todo {
     margin: 0.5rem;
     background: white;
-    color: black;
     font-size: 1.5rem;
+    color: black;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    transition: all 0.5s ease;
-}
+    transition: all 1s ease;
+  }
 
-.todo li {
+  .todo li {
     flex: 1;
-}
-
-.trash-btn, .complete-btn {
-    background: #ff6f47;
+  }
+  
+  .trash-btn,
+  .complete-btn {
+    background: #588157;
     color: white;
     border: none;
     padding: 1rem;
     cursor: pointer;
     font-size: 1rem;
-}
-
-.complete-btn {
-    background-color: green;
-}
-
-.todo-item {
+  }
+  .complete-btn {
+    background: #a3b18a;
+  }
+  .todo-item {
     padding: 0rem 0.5rem;
-}
+  }
+  
+  .fa-trash,
+  .fa-check {
+    pointer-events: none;
+  }
 
-.completed {
+  .completed {
     text-decoration: line-through;
     opacity: 0.5;
-}
-
-
+  }
+  
+ 
 
 
